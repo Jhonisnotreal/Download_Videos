@@ -1,0 +1,38 @@
+body {
+    background: rgb(230,198,56);
+    background: linear-gradient(90deg, rgba(230,198,56,1) 1%, rgba(224,123,80,1) 23%, rgba(255,188,0,1) 91%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header{
+    color: black;   
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header a {
+    padding: 6px;
+    text-decoration: none;
+}
+
+div input {
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;    
+}
+
+div button {
+    height: 25px;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+div button:hover {
+    background-color: rgb(242, 207, 118);
+}
+
