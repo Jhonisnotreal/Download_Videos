@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descarga Videos</title>
+    <title>Download Videos</title>
     <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
     <header>
         <a href="{{url_for('index')}}">Home</a>
-        <a href="#">Dudas</a>
+        <a href="#">About</a>
     </header>
     
-    <h1>Bienvenido al descargador de videos!</h1>
-    <p>Introduce la liga del video que quieres descargar: </p>
+    <h1>Welcome to Video Downloader!</h1>
+    <p>Please put the link to download it: </p>
     <div>
         <form action="{{url_for('index')}}" action='descarga' method="POST">
-            <input type="text" name="url" placeholder="Introduce la liga aqui" id = "url" required>
-            <button>Descargar</button>
+            <input type="text" name="url" placeholder="Put the link here" id = "url" required>
+            <button>Download</button>
         </form>
     </div>
 
